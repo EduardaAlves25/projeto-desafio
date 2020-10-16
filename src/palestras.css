@@ -1,0 +1,125 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../img/arvore\ do\ universo.jpeg);
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.menu {
+  width: 100%;
+  background-color: rgba(69, 64, 64, 1);
+  height: 100px;
+}
+
+main {
+  margin: 0;
+  float: left;
+  position: relative;
+}
+
+.top ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 600px;
+  padding: 13px;
+}
+
+.top ul li {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.top ul li {
+  width: 20%;
+}
+
+.top ul li :hover {
+  color: rgb(198, 67, 224);
+}
+
+.top-2 ul li a {
+  display: inline-block;
+  list-style: none;
+  margin-left: 1px;
+  padding: 0px;
+}
+
+.top-2 ul li a {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.top-2 ul li a:hover {
+  color: rgb(198, 67, 224);
+}
+
+.block1 {
+  height: 400px;
+  width: 200px;
+  display: inline-block;
+  background-color: rgba(196, 196, 196, 0.8);
+  margin-left: 200px;
+}
+
+.block1 img {
+  height: 200px;
+  width: 200px;
+  margin-left: 0px;
+}
+
+.block1 p {
+  text-align: center;
+}
+
+.block2 {
+  height: 400px;
+  width: 200px;
+  display: inline-block;
+  background-color: rgba(196, 196, 196, 0.8);
+  margin-left: 100px;
+}
+
+.block2 {
+  position: relative;
+  top: 20px;
+  left: 45px;
+}
+.block2 img {
+  height: 200px;
+  width: 200px;
+  margin-left: 0px;
+}
+
+.block2 p {
+  text-align: center;
+}
+
+.block3 {
+  height: 400px;
+  width: 200px;
+  display: inline-block;
+  background-color: rgba(196, 196, 196, 0.8);
+  margin-left: 150px;
+}
+
+.block3 img {
+  height: 200px;
+  width: 200px;
+  margin-left: 0px;
+}
+
+.block3 p {
+  text-align: center;
+}
+.block3 {
+  position: relative;
+  top: 70px;
+  left: 45px;
+}

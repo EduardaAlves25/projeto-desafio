@@ -1,0 +1,63 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../img/arvore\ do\ universo.jpeg);
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.main-menu {
+  width: 100%;
+  background-color: rgba(69, 64, 64, 1);
+  height: 100px;
+}
+
+main {
+  margin: 0;
+  float: left;
+  position: relative;
+}
+
+.logo {
+  height: 0;
+  padding: 15px;
+  width: 80%;
+  margin-left: 20px;
+}
+
+.menu-orientado ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 200px;
+}
+
+.menu-orientado ul li a {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.menu-orientado ul li a {
+  width: 20%;
+}
+
+.menu-orientado ul li a:hover {
+  color: rgb(198, 67, 224);
+}
+
+.slide img {
+  width: 700px;
+  height: 300px;
+  margin-left: 100%;
+  padding: 90px;
+  background-color: transparent;
+  margin: 70px;
+}
+.slide {
+  width: 1000px;
+  margin: 0 auto;
+}

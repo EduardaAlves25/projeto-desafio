@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+  <title>Cadastro</title>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./cadastro.css"/>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <header class="menu">
+            <main>
+              <div class="top">
+                <ul>
+                  <li>Cadastro</li>
+                </ul>
+              </div>
+              <div class="top-2">
+                <ul>
+                  <li>
+                    <a href="./index.html">Voltar</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="block1">   
+                <form method="get" action="envio_dados.php"></br>
+                    <p>Nome:</p><input type="text" name="nome" placeholder="Digite seu Nome aqui">
+                    <p>E-mail:</p><input type="e-mail" name="email" placeholder="Digite seu e-mail">
+                    <p>Senha:</p><input type="password" name="senha" placeholder="Digite sua Senha">
+                    <input type="submit" name="enviar" value="Enviar"> 
+                    </form>                      
+              </div>
+            </main>
+          </header>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
